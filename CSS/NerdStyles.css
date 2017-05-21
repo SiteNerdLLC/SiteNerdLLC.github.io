@@ -1,0 +1,271 @@
+/* Colors: (NerdPurple) #811560, R 129 G 021 B 096  */
+/* Colors: (NerdLightBlue) #01CFFF, R 001 G 207 B 255  */
+/* Colors: (NerdBlue) #015DA8, R 001 G 093 B 168  */
+/* Colors: (NerdGreen) #028803, R 002 G 136 B 003  */
+/* Colors: (NerdYellow) #E2E80C, R 226 G 232 B 112  */
+/* Colors: (NerdPurple) #811560, R 129 G 21 B 96  */
+
+.aInherit, .aInherit:link, .aInherit:visited, .aInherit:focus, .aInherit:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.big-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.BigDiv {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    background-color: none;
+    border-collapse: collapse;
+}
+
+blockquote {
+    display: block;
+    vertical-align: middle;
+    color: #F8F1E5;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-color: #426E86;
+}
+
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #F8F1E5;
+    font-size: 12px;
+    background-color: #2F3131;
+    padding-bottom: 60px;
+}
+
+.bodyLeft {
+    text-align: left;
+}
+
+.body-TGS {
+    background-color: #F8F1E5;
+    color: #F8F1E5;
+    text-align: left;
+    position: absolute;
+    width: 100%;
+}
+
+.bodytainerTGS {
+    position: relative;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.centeredText {
+    text-align: center;
+    display: inline-block;
+    color: #F8F1E5;
+}
+
+.centerText {
+    color: #2F3131;
+    text-align: center;
+}
+
+.cSpan {
+    text-align: center;
+    vertical-align: middle;
+    color: #2F3131;
+}
+
+.div100Width {
+    box-sizing: border-box;
+    width: 100% auto;
+}
+
+hr {
+    border-color: black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.leftText {
+    text-align: left;
+}
+
+.LoginDiv {
+    position: relative;
+    margin: 0 auto;
+    color: #2F3131;
+    background-color: #F9BA32;
+    width: 25%;
+    height: 380px;
+}
+
+.logDiv {
+    text-align: center;
+    width: 100%;
+}
+
+.loginBtn {
+    width: 200px; 
+}
+
+.myCarousel {
+    width: 100%;
+    height: 125px;
+}
+
+.myBanner {
+    text-align: center;
+    width: auto;
+    height: 200px;
+}
+
+.myLogo {
+    text-align: center;
+    width: auto;
+    height: 250px;
+}
+
+.myDropdown {
+    font-size: 20px;
+    background-color: #FEF1E5;
+    width: 250px;
+    padding: 10px;
+}
+
+.myModal {
+    background-color: #F9BA32;
+    color: #2F3131;
+    text-align: center;
+    margin-right: -15px;
+}
+
+.modalSpan {
+    font-size: 20px;
+    color: #2F3131;
+    vertical-align: top;
+}
+
+.myActive {
+    background-color: #F9BA32;
+    border-radius: 10px;
+}
+
+.myInactive {
+    border-radius: 10px;
+}
+
+.myNavbars {
+    color: #2F3131;
+}
+
+.nerdNavbar {
+    background-color: #2F3131;
+    color: #F8F1E5;
+    vertical-align: middle;
+    height: auto;
+}
+
+.navbar-right {
+    margin-right: 2px;
+    margin-top: 2px;
+    color: #2F3131;
+}
+
+.SNnav {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.SNnavlinks {
+    color: #F8F1E5;
+    
+}
+
+.SNnavrow {
+    background-color: #426E86;
+    color: #F8F1E5;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.SNbodycontainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nerdDiv1 {
+    margin-right: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: none;
+    opacity: 60%;
+    margin-top: 5px;
+    border-top: 2px solid purple;
+    border-right: 2px solid purple;
+    border-bottom: 2px solid purple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rightText {
+    text-align: right;
+}
+
+<nav class="navbar navbar-fixed-top nerdNavbar">
+        <nav class="navbar-brand"><a href="index.html" class="aInherit">SiteNerd</a></nav>
+        <nav class="navbar-right pull-right">
+            <button type="button" class="btn btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <i class="fa fa-bars fa-lg aInherit" aria-hidden="true"></i>
+    </button>
+            <ul class="dropdown-menu nav nav-pills nav-stacked myDropdown">
+                <li class="myInactive"><a href="#">Plans & Pricing</a></li>
+                <li class="myInactive"><a href="#">About SiteNerd</a></li>
+                <li class="myInactive"><a href="#">Blog</a></li>
+                <li class="myInactive"><a href="#">Support</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="myActive"><a href="#" id="loginLink">Login</a></li>
+            </ul>
+        </nav>
+
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
